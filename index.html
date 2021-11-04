@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Customer Satisfaction Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div id="box">
+        <form id="Survey-form">
+            <label> Name:</label> <input id="name" type="text" name="name" placeholder="Enter Your Name Here">
+            <label> Email:</label><input type="email" name="email" id="email" placeholder="Enter Your email Here">
+            <label> Age:</label> <input type="number" name="age" id="age" placeholder="Enter age" max="100" min="1">
+            <label> Location:</label>
+            <select name="Select Your location" id="location">
+                <option value="Gujarat">Gujarat</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Rajsthan">Rajsthan</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+            <label> Enter Your Expiriance:</label>
+            <input type="radio" id="exp" value="1 star" name="exp">1 star
+            <input type="radio" id="exp" value="2 star" name="exp">2 star
+            <input type="radio" id="exp" value="3 star" name="exp">3 star
+            <input type="radio" id="exp" value="4 star" name="exp">4 star
+            <input type="radio" id="exp" value="5 star" name="exp">5 star<br>
+            <label> Any Suggestion:</label>
+            <textarea id="com" placeholder="enter your thoughts here"></textarea>
+            <button type="submit" value="submit" class="button">SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>
